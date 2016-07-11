@@ -125,7 +125,7 @@ bool CanonicalizePath(char* path, size_t* len, unsigned int* slash_bits,
     return false;
   }
 
-  const int kMaxPathComponents = 30;
+  const int kMaxPathComponents = 60;
   char* components[kMaxPathComponents];
   int component_count = 0;
 
